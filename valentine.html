@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Quieres ser mi Valentine?</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #e74c3c;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    .button {
+      background-color: #e74c3c;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #c0392b;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¿Quieres ser mi Valentine?</h1>
+    <p>
+      Desde el momento en que te conocí, supe que eras alguien especial. Cada momento a tu lado ha sido mágico, y no puedo imaginar mi vida sin ti. ¿Aceptas ser mi Valentine y seguir creando recuerdos juntos?
+    </p>
+
+    <div class="gallery">
+      <img src="foto1.jpg" alt="Recuerdo 1">
+      <img src="foto2.jpg" alt="Recuerdo 2">
+      <img src="foto3.jpg" alt="Recuerdo 3">
+    </div>
+
+    <button class="button" onclick="alert('¡Eres la mejor! ¡Feliz Valentine! 💖')">¡Sí, acepto!</button>
+
+    <div class="footer">
+      <p>Hecho con 💖 por [Andres]</p>
+    </div>
+  </div>
+</body>
+</html>
